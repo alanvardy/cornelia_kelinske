@@ -7,8 +7,16 @@ defmodule CorneliaKelinske.MixProject do
       version: "0.1.0",
       elixir: "~> 1.5",
       elixirc_paths: elixirc_paths(Mix.env()),
+      test_coverage: [tool: ExCoveralls],
+      preferred_cli_env: [
+        coveralls: :test,
+        "coveralls.detail": :test,
+        "coveralls.post": :test,
+        "coveralls.html": :test
+      ],
       compilers: [:phoenix, :gettext] ++ Mix.compilers(),
       start_permanent: Mix.env() == :prod,
+      aliases: aliases(),
       deps: deps()
     ]
   end
@@ -19,7 +27,7 @@ defmodule CorneliaKelinske.MixProject do
   def application do
     [
       mod: {CorneliaKelinske.Application, []},
-      extra_applications: [:logger, :runtime_tools]
+      extra_applications: [:logger, :runtime_tools, :recaptcha]
     ]
   end
 
@@ -52,6 +60,13 @@ defmodule CorneliaKelinske.MixProject do
       {:sobelow, "~> 0.8", only: [:dev, :test], runtime: false},
       {:excoveralls, "~> 0.10", only: :test, runtime: false},
       {:ex_doc, "~> 0.21", only: :dev, runtime: false}
+    ]
+  end
+
+  defp aliases do
+    [
+      "cypress.open": ["cmd ./cypress-open.sh"],
+      "cypress.run": ["cmd ./cypress-run.sh"]
     ]
   end
 end
