@@ -66,6 +66,8 @@ config :cornelia_kelinske, CorneliaKelinskeWeb.Endpoint,
 # Do not print debug messages in production
 config :logger, level: :info
 
+config :cornelia_kelinske, :env, :prod
+
 config :recaptcha,
   public_key: recaptcha_public_key,
   secret: recaptcha_private_key,
