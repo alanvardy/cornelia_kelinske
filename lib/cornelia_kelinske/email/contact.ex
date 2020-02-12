@@ -6,7 +6,7 @@ defmodule CorneliaKelinske.Email.Contact do
   alias CorneliaKelinske.Email.Content
   import Ecto.Changeset
 
-  @site "Cornelia Kelinske"
+  @site "CorneliaKelinske.com"
 
   @doc "Build a new Bamboo struct"
   @spec compose(CorneliaKelinske.Email.Content.t()) :: Bamboo.Email.t()
@@ -24,18 +24,24 @@ defmodule CorneliaKelinske.Email.Contact do
   @spec changeset(struct(), map()) :: %Ecto.Changeset{}
   def changeset(content, attrs) do
     {content, Content.types()}
-    |> cast(attrs, [:from_email, :name, :message])
+    |> cast(attrs, [:from_email, :name, :message, :phone])
     |> validate_required([:from_email, :name, :message])
     |> validate_length(:message, min: 10, max: 1000)
   end
 
   @spec contact_html_body(CorneliaKelinske.Email.Content.t()) :: String.t()
-  defp contact_html_body(%Content{from_email: from_email, name: name, message: message}) do
+  defp contact_html_body(%Content{
+         from_email: from_email,
+         name: name,
+         message: message,
+         phone: phone
+       }) do
     """
       <p>You have received a new message from #{@site}</p>
       <p>
-      <strong>Email:</strong> #{from_email} <br>
       <strong>Name:</strong> #{name} <br>
+      <strong>Email:</strong> #{from_email} <br>
+      <strong>Phone:</strong> #{phone} <br>
       <strong>Message:</strong> <br>
       #{message}
       </p>
@@ -43,12 +49,18 @@ defmodule CorneliaKelinske.Email.Contact do
   end
 
   @spec contact_text_body(CorneliaKelinske.Email.Content.t()) :: String.t()
-  defp contact_text_body(%Content{from_email: from_email, name: name, message: message}) do
+  defp contact_text_body(%Content{
+         from_email: from_email,
+         name: name,
+         message: message,
+         phone: phone
+       }) do
     """
       You have received a new message from #{@site}
 
-      Email: #{from_email}
       Name: #{name}
+      Phone: #{phone}
+      Email: #{from_email}
       Message:
       #{message}
     """
