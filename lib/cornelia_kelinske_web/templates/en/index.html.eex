@@ -1,0 +1,38 @@
+<h1>
+    Welcome
+</h1>
+<div class="row">
+    <div class="col-12 col-lg-6 mb-3">
+        <p>
+            If you are looking for quality translation services from English into German or German into English,
+            you are looking in the right place. I am a highly professional language service provider with over a
+            decade of experience under my belt.
+        </p>
+        <p>
+            Please see <%= link "About Me", to: Routes.en_path(@conn, :aboutme) %> for more information about my
+            qualifications and professional experience. Information about my services and areas of expertise
+            is available under <%= link "Services", to: Routes.en_path(@conn, :overview) %>.
+        </p>
+        <p>
+            Feel free to <%= link "Contact Me", to: Routes.contact_path(@conn, :new) %> if you have any questions or if you would
+            like to receive a free and non-binding quote.
+        </p>
+        <p>
+            I am looking forward to working with you!
+        </p>
+    </div>
+    <div class="col-12 col-lg-6 mt-3 mb-3">
+        <%= img_tag 'images/cornelia_desk2.jpg', class: 'w-100 d-block rounded shadow mx-auto' %>
+    </div>
+</div>
+<%# <% @feedback = [
+    {text:  %(
+                You can expect nothing but
+                excellence from her.
+            ),
+    author: ["Julia Glaremin","Managing Partner"],
+    company: ["Apollo Lingua GbR"],
+    website: 'http://www.apollo-lingua.com/index.html'}
+] %>
+
+<%# <%= render 'layouts/feedback', center: true %>

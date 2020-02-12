@@ -1,0 +1,50 @@
+<h1>Übersetzen</h1>
+<p>
+    Als professionelle Übersetzerin betrachte ich Ihren Text immer als Ganzes.
+    Das bedeutet, dass ich den Kontext, Stil und die Leser, an die der Text sich richtet, stets im Blick habe.
+    Auf diese Weise wird sichergestellt, dass die fertige Übersetzung nicht eine bloße Ansammlung von einzeln
+    übersetzten Worten ist, sondern ein in sich schlüssiger Text, der sich nicht liest wie eine Übersetzung
+    und der an ihre Anforderungen und ihren Adressatenkreis angepasst ist.
+</p>
+<p>
+    <h2>Fachgebiete</h2>
+    <p>
+        Im Laufe der Jahre habe ich Übersetzungserfahrung in vielen Fachgebieten sammeln können.
+        Die Bereiche, auf die ich mich mittlerweile hauptsächlich spezialisiert habe sind:
+    </p>
+    <ul>
+        <li>Recht (z.B. Abkommen, Verträge, Klageschriften [vor allem im Bereich Patentrecht])</li>
+        <li>Technik (z.B. Benutzerhandbücher, Patentschriften)</li>
+        <li>Militär (von Beschaffungsverträgen bis hin zu Operationsbefehlen)</li>
+        <li>Marketing (Webseitenbeiträge, Newsletter, Werbung)</li>
+    </ul>
+</p>
+<p>
+    Darüber hinaus habe ich auch einige eher außergewöhnliche Texte übersetzt, darunter ein Tourprogramm für
+    einen Chor, einschließlich der Liedtexte, und ein Buch über die Offenbarung des Johannes.
+</p>
+<p>
+    Gerne arbeite ich mich auch in neue Themenbereiche ein.
+</p>
+<p>
+    <h2>Preise</h2>
+    Grundsätzlich rechne ich Übersetzungen pro Wort ab (bei Word-Dokumenten ist die Wortzahl des Ausgangstextes
+    ausschlaggebend, bei PDFs die Wortzahl des Zieltextes)
+    Welcher Satz berechnet wird, ist von den folgenden Faktoren abhängig:
+    <ul>
+        <li>Wortzahl</li>
+        <li>Textart</li>
+        <li>Anforderungen an die Formatierung</li>
+        <li>Abgabetermin</li>
+    </ul>
+</p>
+
+<p>
+    Bitte <%= link "kontaktieren", to: Routes.contact_path(@conn, :neu) %> Sie mich, um ein kostenloses, unverbindliches Angebot zu
+    erhalten. Selbstverständlich werden all Ihre Daten und Dokumente vertraulich behandelt.
+</p>
+
+<p>
+    <h2>Beglaubigte Übersetzungen</h2>
+    In beiden Sprachrichtungen (Englisch – Deutsch und Deutsch – Englisch) biete ich (für Kanada)  beglaubigte Übersetzungen an.
+</p>

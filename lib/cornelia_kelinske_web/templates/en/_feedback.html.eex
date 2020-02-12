@@ -1,0 +1,33 @@
+<div class="row">
+    <%= for {fb, counter} <- Enum.with_index(@feedback) do %>
+        <%= if @align == :centre do %>
+            <div class="col-12 col-lg-8 offset-lg-1" >
+        <% else %>
+            <div class="col-12 col-md-7 <%= if rem(counter, 2) == 0, do: "offset-md-4" %>" >
+        <% end %>
+            <blockquote class="blockquote container m-md-5 my-2 p-2 bg-brown0 shadow-sm rounded">
+            <div class="d-flex <%= if @align == :centre, do: "justify-content-center" %>">
+                <div class="align-top px-2"><%= img_tag "/images/quote.svg", width: 15, class: "quote" %></div>
+                <div>
+                    <p class="mb-0">
+                        <%= fb.text %>
+                    </p>
+                </div>
+                <div class="align-top px-2 rotate"><%= img_tag "/images/quote.svg", width: 15, class: "quote" %></div>
+            </div>
+                <footer class="text-center mt-1 small text-orange2">
+                <%= for auth <- fb.author do %>
+                    <%= auth %> <br>
+                <% end %>
+                <%= if company_details_present?(fb) do %>
+                    <%= link to: fb.website, target: "_blank" do %>
+                        <%= for comp <- fb.company do %>
+                            <%= comp %> <br>
+                        <% end %>
+                    <% end %>
+                <% end %>
+            </footer>
+            </blockquote>
+        </div>
+    <% end %>
+</div>

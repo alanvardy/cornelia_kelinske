@@ -1,0 +1,36 @@
+<h1>Herzlich Willkommen!</h1>
+
+<div class="row">
+    <div class="col-12 col-lg-6 mb-3">
+        <p>
+            Sie benötigen professionelle Übersetzungen und Dolmetschleistungen für die Sprachkombinationen Deutsch –
+            Englisch und/oder Englisch – Deutsch? Hier sind Sie an der richtigen Adresse.
+        </p>
+        <p>
+            Als Diplom-Dolmetscherin und Übersetzerin mit umfassender Erfahrung in vielen Fachbereichen stelle ich
+            Ihnen Sprachdienstleistungen von höchster Qualität zur Verfügung. Genauere Informationen zu meiner
+            Qualifikation und Berufserfahrung finden Sie im Bereich <%= link "Über mich", to: Routes.de_path(@conn, :ubermich) %>. Wenn Sie mehr über die angebotenen
+            Leistungen erfahren möchten, klicken Sie bitte auf <%= link "Leistungen", to: Routes.de_path(@conn, :allgemeines) %>.
+        </p>
+        <p>
+            Falls Sie Fragen haben oder ein kostenloses, unverbindliches Angebot für eine Übersetzung oder einen
+            Dolmetschauftrag erhalten möchten, können Sie sich gerne mit mir in <%= link "Kontakt setzen", to: Routes.contact_path(@conn, :neu) %>.
+        </p>
+        <p>
+            Ich freue mich auf Ihre Aufträge!
+        </p>
+    </div>
+    <div class="col-12 col-lg-6 mt-3 mb-3">
+        <%= img_tag "/images/cornelia_desk2.jpg", class: "w-100 d-block rounded shadow mx-auto" %>
+    </div>
+</div>
+
+<%# @feedback = [
+    {text:  %(
+                Sie dürfen mit einer ausgezeichneten Übersetzung rechnen.
+            ),
+    author: ["Julia Glaremin","Geschäftsführende Gesellschafterin","Apollo Lingua GbR"]},
+
+] %>
+
+<%# render "layouts/feedback", center: true %>

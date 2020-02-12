@@ -1,0 +1,68 @@
+<h1>
+    Allgemeines
+</h1>
+<div class="row">
+    <div class="col-12 col-lg-8 mb-3">
+        <p>
+            Ich biete Ihnen professionelle <%= link "Übersetzungen", to: Routes.de_path(@conn, :ubersetzen) %> und <%= link "Dolmetschleistungen", to: Routes.de_path(@conn, :dolmetschen) %> zu konkurrenzfähigen Preisen.
+            Wie viel für eine Übersetzung oder Dolmetschleistung berechnet wird, hängt von einer Reihe verschiedener
+            Faktoren ab. Genauere Informationen hierzu finden Sie, wenn Sie auf die entsprechende Leistung klicken.
+            Oder nehmen Sie mit mir <%= link "Kontakt", to: Routes.contact_path(@conn, :neu) %> auf, um ein unverbindliches und selbstverständlich kostenloses Angebot
+            zu erhalten.
+        </p>
+        <p>
+            Qualität steht bei meiner Arbeit an erster Stelle. Ganz gleich welche Art von Projekt Sie mir
+            anvertrauen, Folgendes biete ich Ihnen immer:
+        </p>
+        <p>
+            <h2>Qualität aus einer Hand:</h2>
+            <ul>
+                <li>
+                    Ich bin die Person, die Ihr Dokument übersetzt bzw. die Dolmetscherin, mit der Sie arbeiten
+                </li>
+                <li>
+                    Sofern nicht ausdrücklich etwas Gegenteiliges zwischen uns vereinbart wurde, bin ich die einzige Person, die an Ihrem Projekt arbeitet
+                </li>
+                <li>
+                    Fragen, die sich im Laufe des Projekts stellen, können direkt zwischen dem Kunden (Ihnen) und der
+                    Übersetzerin (mir) geklärt werden
+                </li>
+                <li>
+                    Ich kann Ihnen das höchste Maß an Zuverlässigkeit bieten: Vereinbarte Abgabetermine werden grundsätzlich eingehalten*
+                    </li>
+            </ul>
+        </p>
+        <p>
+            <h2>Maßgeschneiderte Leistung:</h2>
+            <ul>
+                <li>
+                    Ihre Projekte sind mir wichtig
+                </li>
+                <li>
+                    Ich sehe mir jede einzelne Anfrage genau an, um einen angemessenen Preis und Abgabetermin vorschlagen zu können
+                </li>
+                <li>
+                    Ihre Präferenzen (z.B. Terminologie, Stil etc.) werden berücksichtigt
+                </li>
+            </ul>
+        </p>
+        <p>
+            <h2>
+                Sie bezahlen für das gewünschte Ergebnis:
+            </h2>
+        </p>
+        <ul>
+            <li>Sie bezahlen ausschließlich die Person, die die angeforderten Leistungen erbringt, d.h. mich</li>
+            <li>Sie bezahlen keine Dritten für das Management Ihres Übersetzungs-/Dolmetschprojekts</li>
+        </ul>
+
+        <small class="text-muted">
+            *Es sei denn das Eintreten Höherer Gewalt, einer unerwarteten Krankheit oder ein Unfall halten mich davon
+            ab. In solchen, äußerst selten auftretenden Fällen, werde ich Sie unverzüglich informieren und mich,
+            falls gewünscht, nach Kräften darum bemühen, für kompetenten Ersatz zu sorgen.
+        </small>
+    </div>
+    <div class="col-12 col-lg-4 mt-3 mb-3">
+        <%= img_tag "/images/edmontonbuildings.jpg", class: "w-100 d-block rounded shadow mx-auto" %>
+    </div>
+</div>

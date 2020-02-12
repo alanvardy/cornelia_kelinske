@@ -1,0 +1,75 @@
+<h1>
+    Overview
+</h1>
+<div class="row">
+    <div class="col-12 col-lg-8 mb-3">
+        <p>
+            I offer professional <%= link "translation", to: Routes.en_path(@conn, :translation) %> and <%= link "interpretation", to: Routes.en_path(@conn, :interpretation) %> services
+            at a competitive rate. Prices depend on a number of different factors. Please find out more by clicking on the service you
+            require or <%= link "contact me", to: Routes.contact_path(@conn, :new) %> to obtain a free and non-binding quote.
+        </p>
+        <p>
+            I take great pride in my work so you can be assured that providing quality services is always my priority.
+        </p>
+        <p>
+            Irrespective of what kind of project you entrust me with, this is what I offer:
+        </p>
+        <p>
+            <h2>
+                Quality from one source:
+            </h2>
+            <ul>
+                <li>
+                    I am the person translating your document or the interpreter you will be working with
+                </li>
+                <li>
+                    Unless explicitly agreed otherwise, I am the only person working on your project
+                </li>
+                <li>
+                    Any questions that arise during the project can be clarified directly between the client (you) and the
+                    translator/interpreter (me)
+                </li>
+                <li>
+                    I can provide a high level of reliability: Deadlines agreed on will be met.*
+                </li>
+            </ul>
+        </p>
+        <p>
+            <h2>
+                Individual treatment for all projects:
+            </h2>
+            <ul>
+                <li>
+                    Your projects are important to me
+                </li>
+                <li>
+                    Each project will be assessed individually to determine appropriate rates and deadlines
+                </li>
+                <li>
+                    Your preferences (e.g. terminology, style etc.) will be respected
+                </li>
+            </ul>
+        </p>
+        <p>
+            <h2>
+                You pay for your desired outcome:
+            </h2>
+            <ul>
+                <li>
+                    You only pay the person performing the service you requested, i.e. me
+                </li>
+                <li>
+                    There is no additional cost component paid to third parties for the management of your project
+                </li>
+            </ul>
+        </p>
+
+        <small class="text-muted">
+            *Unless a force majeure, sudden illness or accident occurs, in which case I will notify you and make best efforts to
+            find a replacement
+        </small>
+    </div>
+    <div class="col-12 col-lg-4 mt-3 mb-3">
+        <%= img_tag '/images/edmontonbuildings.jpg', class: 'w-100 d-block rounded shadow mx-auto' %>
+    </div>
+</div>

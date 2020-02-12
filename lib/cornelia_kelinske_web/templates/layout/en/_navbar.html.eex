@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-brown4 border-bottom border-orange2">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav mr-auto">
+        <%= link "Home", to: Routes.en_path(@conn, :index), class: 'nav-item nav-link' %>
+        <%= link "About Me", to: Routes.en_path(@conn, :aboutme), class: 'nav-item nav-link' %>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Services
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <%= link "Overview", to: Routes.en_path(@conn, :overview), class: 'dropdown-item' %>
+            <%= link "Translation", to: Routes.en_path(@conn, :translation), class: 'dropdown-item' %>
+            <%= link "Interpretation", to: Routes.en_path(@conn, :interpretation), class: 'dropdown-item' %>
+          </div>
+        </div>
+        <%= link "Feedback", to: Routes.en_path(@conn, :feedback), class: 'nav-item nav-link' %>
+        <%= link "Contact", to: Routes.contact_path(@conn, :new), class: 'nav-item nav-link' %>
+      </div>
+      <div class="navbar-nav">
+        <%= link to: Routes.de_path(@conn, :index), class: 'nav-item nav-link' do %>
+        <%= img_tag "/images/german.svg", class: "flag d-inline border" %>
+        <span class="d-inline">Deutsch</span>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</nav>

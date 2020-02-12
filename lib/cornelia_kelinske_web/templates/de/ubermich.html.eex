@@ -1,0 +1,45 @@
+<h1>
+    Über mich
+</h1>
+<div class="row">
+    <div class="col-12 col-lg-5 mb-3">
+        <%= img_tag "/images/sooke2.jpg", class: "w-100 d-block rounded shadow mx-auto" %>
+    </div>
+    <div class="col-12 col-lg-7 mb-3">
+        <p>
+            Ich bin Diplom-Dolmetscherin und Übersetzerin mit mehr als einem Jahrzehnt
+            Berufserfahrung sowohl in Festanstellung als auch als Freiberuflerin.
+        </p>
+        <p>
+            Studiert habe ich am berühmten  Fachbereich Translations-, Sprach- und Kulturwissenschaft der Universität
+            Mainz in Germersheim. Während des Studiums verbrachte ich ein Semester als Austauschstudentin in Dijon,
+            Frankreich und eines in Salford, England.
+        </p>
+        <p>
+            Gleich nach Abschluss meines Studiums zog ich nach Koblenz, wo ich für zweieinhalb Jahre als Übersetzerin
+            und Verhandlungsdolmetscherin für das Bundessprachenamt, den Sprachendienst der Bundeswehr, arbeitete. In
+            dieser Zeit sammelte ich Übersetzungserfahrung in vielen verschiedenen Bereichen. Neben Texten mit
+            militärischen Inhalten übersetzte ich eine Vielzahl an technischen Dokumenten (Leistungsbeschreibungen,
+            Benutzerhandbücher etc.) sowie Dokumente aus dem Bereich Recht wie z.B. diverse Verträge und Vereinbarungen.
+            Zudem begleitete ich als Dolmetscherin Delegationen hochrangiger ausländischer Militärangehöriger,
+            Verhandlungen und die Panzerausbildung von ausländischen Soldaten.
+        </p>
+        <p>
+            Auch in meiner Freizeit nutzte ich jede Gelegenheit, um mehr Berufserfahrung zu sammeln. Während meiner
+            Zeit in Koblenz war ich als allgemein beeidigte Dolmetscherin der englischen Sprache für gerichtliche
+            Angelegenheiten in Rheinland-Pfalz aktiv und dolmetschte bzw. übersetzte ehrenamtlich für zwei
+            gemeinnützige Nichtregierungsorganisationen.
+        </p>
+        <p>
+            Anfang 2011 zog ich zu meinem jetzigen Ehemann nach Edmonton in der kanadischen Provinz Alberta. Hier
+            arbeite ich als freiberufliche Übersetzerin und Dolmetscherin, wobei ich mich hauptsächlich auf die
+            Fachbereiche Recht, Technik und Marketing spezialisiert habe. Ich bin aber immer gerne bereit, mich
+            auch in neue Themen einzuarbeiten.
+        </p>
+        <p>
+            Ich bin zertifizierte Übersetzerin für die Sprachrichtungen Englisch – Deutsch und Deutsch – Englisch
+            und gehöre als Mitglied der Association of Translators and Interpreters of Alberta (<%= link "ATIA", to: "https://atia.ab.ca", target: "_blank" %>) auch dem
+            Canadian Translators, Terminologists and Interpreters Council (<%= link "CTTIC", to: "http://www.cttic.org/mission.asp", target: "_blank" %>) an.
+        </p>
+    </div>
+</div>

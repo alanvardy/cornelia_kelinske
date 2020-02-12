@@ -1,0 +1,102 @@
+<h1>
+    Interpretation
+</h1>
+<p>
+    In simple terms, interpretation is the oral translation of spoken words.
+    I provide both consecutive and simultaneous interpretation services.
+</p>
+<h2>
+    Consecutive interpreting
+</h2>
+<p>
+    Consecutive interpreting means that the interpreter speaks after the original speaker has finished his/her speech
+    (or,
+    in the case of longer speeches, a part of the speech). A special note-taking technique allows the interpreter to
+    interpret speeches (or parts of speeches) of up to 10 minutes consecutively.
+    This type of interpreting is typically used in bilingual settings. It is ideal for shorter speeches (e.g. toasts,
+    after-diner speeches) and bilateral settings where the interpreter interprets s for both sides, e.g. arbitration,
+    mediation or business negotiations.
+</p>
+<p>
+    Examples of situations where I provided consecutive interpretation services include:
+    <ul>
+        <li>
+            Arbitration
+        </li>
+        <li>
+            Business negotiations
+        </li>
+        <li>
+            Speeches by high-ranking military officers
+        </li>
+        <li>
+            Training courses (including various tank operating courses where I actually interpreted while standing on a
+            tank)
+        </li>
+        <li>
+            Visits of foreign delegations
+        </li>
+        <li>
+            Exams
+        </li>
+    </ul>
+</p>
+<p>
+    Please note: I also provide interpreting/on-site translation services for trade exams such as red seal or
+    journeyman
+    exams.
+</p>
+<h2>
+    Simultaneous interpreting
+</h2>
+<p>
+    Simultaneous interpreting means that the interpreter speaks at the same time as the original speaker. As this
+    requires
+    a lot of concentration and effort on the part of the interpreter, simultaneous interpreters usually work in teams
+    of
+    two or more and sit in a soundproof booth.
+</p>
+<p>
+    This type of interpreting is typically used for conferences, conventions and other types of international meetings
+    with
+    a large number of participants.
+    A special form of simultaneous interpreting is the so-called chuchotage (whisper interpreting) where the
+    interpreter
+    sits/stands behind his/her client and whispers the speech in the target language into the client’s ear.
+    This type of interpreting can be used if no more than two people require interpretation into the specific language.
+    No
+    technical equipment is required for chuchotage, however, it is extremely hard on the interpreter and might also
+    disturb
+    other members of the audience.
+</p>
+<p>
+    I have provided simultaneous interpretation/chuchotage for a number of conferences.
+</p>
+<p>
+    Please note: I do not provide interpreting equipment.
+</p>
+<h2>
+    Prices
+</h2>
+<p>
+    Depending on the length and nature of the individual assignment, I will charge on a daily or hourly rate.
+    The rate will be determined on the basis of the following factors:
+
+    <ul>
+        <li>
+            Type of interpreting (consecutive or simultaneous)
+        </li>
+        <li>
+            Subject matter and type of the event for which interpretation is required
+        </li>
+        <li>
+            Duration of the event
+        </li>
+    </ul>
+</p>
+<p>
+    Additional costs such as parking fees, costs for transportation, accommodation and food will be charged separately.
+</p>
+<p>
+    Please <%= link "contact me", to: Routes.contact_path(@conn, :new) %> to obtain a free and non-binding quote.
+</p>

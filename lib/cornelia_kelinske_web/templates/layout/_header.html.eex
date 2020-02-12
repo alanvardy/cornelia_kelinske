@@ -1,0 +1,8 @@
+<div class="container-fluid bg-brown4 text-white">
+    <div class="container pt-3 d-sm-flex justify-content-between">
+        <%= img_tag "/images/logo1.png", alt: "CorneliaKelinske"%>
+        <div class="d-none d-md-block text-right border-right border-orange2 pr-2">
+        Professional Translator<br>and Interpreter<br>Diplomdolmetscherin<br>und Übersetzerin
+        </div>
+    </div>
+</div>

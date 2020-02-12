@@ -1,0 +1,11 @@
+<footer class="footer container-fluid bg-brown4 d-flex justify-content-between border-top border-orange2">
+    <%= link to: Routes.en_path(@conn, :licenses), class: "text-footer" do %>
+        <%= icon("help-circle") %><span class="d-none d-sm-inline-block pl-1"> Licences</span>
+    <% end %>
+    <%= link to: Routes.contact_path(@conn, :new), class: "text-footer" do %>
+        <%= icon("mail") %><span class="d-none d-sm-inline-block pl-1"> Contact Cornelia</span>
+    <% end %>
+    <%= link to: "https://www.alanvardy.com/", class: "text-footer", target: "_blank" do %>
+        <%= icon("code") %><span class="d-none d-sm-inline-block pl-1"> Webmaster</span>
+    <% end %>
+</footer>

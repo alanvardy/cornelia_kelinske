@@ -1,0 +1,52 @@
+<h1>Dolmetschen</h1>
+<p>
+    Einfach gesagt ist Dolmetschen mündliches Übersetzen.
+    Mein Leistungsangebot umfasst sowohl Konsekutiv- als auch Simultandolmetschen.
+</p>
+<p>
+    <h2>Konsekutivdolmetschen</h2>
+    Beim Konsekutivdolmetschen spricht der Dolmetscher nachdem der Redner seine Rede (bzw. bei längeren Reden einen Redeabschnitt) beendet hat. Mithilfe einer speziellen Notizentechnik kann der Dolmetscher  Reden (bzw. Redeabschnitte) von bis zu 10 Minuten konsekutiv verdolmetschen.
+    Konsekutivdolmetschen kommt bevorzugt bei bilingualen Veranstaltungen zum Einsatz. Diese Dolmetschart ist ideal für kürzere Reden (z.B. Tischreden) und in bilateralen Konstellationen, in denen der Dolmetscher für beide Seiten dolmetscht, z.B. bei Verhandlungen.
+</p>
+<p>
+    Persönlich habe ich unter anderem in folgenden Situationen konsekutiv gedolmetscht:
+    <ul>
+        <li>Schlichtungsverhandlung</li>
+        <li>Geschäftsverhandlungen</li>
+        <li>Reden von hochrangigen Offizieren</li>
+        <li>Ausbildungskurse (darunter verschiedene Panzerausbildungskurse, bei denen ich sogar auf dem Panzer gedolmetscht habe)</li>
+        <li>Begleitung von ausländischen Delegationen</li>
+        <li>Prüfungen</li>
+    </ul>
+</p>
+
+<em>Hinweis: Gerne stehe ich Ihnen in Alberta auch bei Handwerksprüfungen wie dem Red Seal oder Journeyman Exam zur Seite.</em>
+<p>
+    <h2>Simultandolmetschen</h2>
+    Beim Simultandolmetschen beginnt der Dolmetscher die Verdolmetschung während der Redner spricht. Vom Dolmetscher wird dabei höchste Konzentration gefordert. Daher arbeiten Dolmetscher bei dieser Dolmetschart in der Regel mit mindestens einem anderen Dolmetscher zusammen und sitzen in einer schalldichten Kabine.
+</p>
+<p>
+    Diese Dolmetschart wird bevorzugt bei Konferenzen und anderen internationalen Versammlungen mit einer großen Zahl an Teilnehmern verwendet.
+    Eine Sonderform des Simultandolmetschens ist das Flüsterdolmetschen. Hierbei sitzt oder steht der Dolmetscher hinter dem Kunden und, wie der Name schon sagt, flüstert diesem die Verdolmetschung ins Ohr.
+    Diese Dolmetschvariante kann nur verwendet werden, wenn nicht mehr als maximal zwei Personen eine Verdolmetschung benötigen. Für diese Form des Simultandolmetschens wird keine Kabine benötigt, jedoch stellt sie eine besondere Belastung für den Dolmetscher dar und die übrigen Zuhörer können sich durch das ständige Flüstern im Hintergrund gestört fühlen.
+</p>
+
+Ich habe im Rahmen verschiedener Konferenzen simultan gedolmetscht (mit und ohne Kabine)
+
+Hinweis: Bitte beachten Sie, dass die Dolmetschtechnik von mir nicht zur Verfügung gestellt wird.
+<p>
+    <h2>Preise</h2>
+    Abhängig von der Dauer des Dolmetscheinsatzes, rechne ich entweder in Tages- oder Stundensätzen ab.
+    Die Höhe des Satzes wird anhand der folgenden Faktoren bestimmt:
+    <ul>
+        <li>Dolmetschart (konsekutiv oder simultan)</li>
+        <li>Thema und Art der Veranstaltung für die die Verdolmetschung benötigt wird</li>
+        <li>Dauer der Veranstaltung</li>
+    </ul>
+</p>
+<p>
+    Zusätzliche Kosten wie Parkgebühren, Reisekosten und Kosten für Verpflegung und Unterkunft werden ggf. zusätzlich in Rechnung gestellt.
+</p>
+<p>
+    Bitte nehmen Sie mit mir <%= link "kontaktieren", to: Routes.contact_path(@conn, :neu) %> auf, um ein kostenloses und unverbindliches Angebot zu erhalten.
+</p>

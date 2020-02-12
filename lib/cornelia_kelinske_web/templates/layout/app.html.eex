@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>CK | <%= @title %></title>
+    <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>"/>
+  <style>
+    .background-image {
+      background-image: url(<%= Routes.static_path(@conn, "/images/paperbg.jpg") %>);
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+
+      /* Set rules to fill background */
+      min-height: 100%;
+
+      /* Set up proportionate scaling */
+      width: 100%;
+      height: auto;
+    }
+  </style>
+  </head>
+  <body class="text-brown4 background-image">
+  <%= render "_header.html" %>
+  <%= if @lang === :en do %>
+    <%= render "en/_navbar.html", conn: @conn %>
+  <% else %>
+    <%= render "de/_navbar.html", conn: @conn %>
+  <% end %>
+    <div class="m-1">
+      <%= flash_alert(@conn) %>
+    </div>
+    <main role="main" class="container bg-grey0 p-3 p-md-5 p-1">
+      <%= render @view_module, @view_template, assigns %>
+    </main>
+    <%= if @lang === :en do %>
+      <%= render "en/_footer.html", conn: @conn %>
+    <% else %>
+      <%= render "de/_footer.html", conn: @conn %>
+    <% end %>
+    <script type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>
+  </body>
+</html>

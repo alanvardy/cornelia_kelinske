@@ -1,0 +1,39 @@
+<h1>
+    About Me
+</h1>
+<div class="row">
+    <div class="col-12 col-lg-5 mb-3">
+        <%= img_tag "/images/sooke2.jpg", class: "w-100 d-block rounded shadow mx-auto" %>
+    </div>
+    <div class="col-12 col-lg-7 mb-3">
+        <p>
+            I am a translator/interpreter with both in-house and freelance experience.
+        </p>
+        <p>
+            I hold a German degree (equivalent to M.A.) in conference interpreting from the Faculty of Translation Studies,
+            Linguistics and Cultural Studies of the Johannes Gutenberg University Mainz, a faculty highly regarded in the
+            translating/interpreting world.
+        </p>
+        <p>
+            After graduating, I worked for over 2 years as a translator and occasional interpreter for the Federal Office of
+            Languages, the language service of the German military. During this time, I gathered translating experience in
+            numerous
+            fields of expertise including military and defence related topics, technical translations (technical
+            specifications,
+            operating manuals, interpreting for tank operating courses) and legal documents (MoUs, service agreements,
+            procurement
+            contracts). At the same time, I worked as a sworn court interpreter and volunteered as an interpreter and
+            translator
+            for two non-profit organizations.
+        </p>
+        <p>
+            In 2011 I moved to Edmonton, Alberta, and have been working as a freelancer ever since.
+        </p>
+        <p>
+            I am a certified translator for the language combinations English into German and German into English, a member of
+            the
+            Association of Translators and Interpreters of Alberta (<%= link "ATIA", to: "https://atia.ab.ca", target: "_blank" %>) and, by affiliation, of the Canadian Translators,
+            Terminologists and Interpreters Council (<%= link "CTTIC", to: "http://www.cttic.org/mission.asp", target: "_blank" %>).
+        </p>
+    </div>
+</div>

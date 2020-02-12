@@ -1,0 +1,74 @@
+h1 {
+  font-family: 'Cormorant', serif;
+  color: map_get($theme-colors, 'orange4');
+  font-size: 2rem;
+}
+
+h2 {
+  margin-top: 40px;
+  font-size: 1rem;
+  // font-size: 1.2rem;
+  // font-family: 'IBM Plex Serif';
+  color: map_get($theme-colors, 'orange4');
+}
+
+// icons in footer
+.eb-icon {
+  width: 18px !important;
+  height: 18px !important;
+  padding-bottom: 3px !important;
+}
+
+// Flags in navbar
+.flag {
+  height: 1rem;
+  margin-bottom: 2px;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+a{
+  color: map_get($theme-colors, 'orange5');
+  &:hover {
+    color: map_get($theme-colors, 'orange2');
+  }
+}
+
+a.text-footer:hover {
+  color: map_get($theme-colors, 'footer-over') !important;
+  text-decoration: none;
+}
+
+.quote {
+  fill: map_get($theme-colors, 'footer-over');
+}
+
+.border-top,
+.border-bottom,
+.border-right {
+  border-width: 3px !important;
+}
+
+// sticky footer code
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 40px;
+  /* Margin bottom by footer height */
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  /* Set the fixed height of the footer here */
+  line-height: 40px;
+  /* Vertically center the text there */
+  background-color: #f5f5f5;
+}

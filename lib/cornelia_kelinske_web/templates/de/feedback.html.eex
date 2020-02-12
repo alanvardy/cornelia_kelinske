@@ -1,0 +1,2 @@
+<h1>Feedback/Clients</h1>
+<%= render CorneliaKelinskeWeb.EnView, "_feedback.html", align: :offset, feedback: @feedback %>

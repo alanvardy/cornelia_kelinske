@@ -1,0 +1,46 @@
+<h1>Translation</h1>
+<p>
+    As a professional translator, I always translate your text as a whole.
+    This means I take into account the context, the style and the readers the text is addressed to.
+    Thus, the outcome will not be a mere agglomeration of individual words, translated on a word by word basis, but an
+    integral target-language text, tailored to your needs and readership.
+</p>
+<h2>Areas of expertise</h2>
+<p>
+    Over the years, I have gained experience in translating documents in a large variety of fields.
+    My main areas of expertise are:
+
+    <ul>
+        <li>Legal (e.g. contracts, MoUs, patent litigation documents)</li>
+        <li>Technical (e.g. user manuals, patent applications)</li>
+        <li>Military (everything from procurement related documents to OP orders)</li>
+        <li>Marketing (e.g. website content, newsletters, advertisement)</li>
+    </ul>
+</p>
+<p>
+    I have also translated some more extraordinary texts such as the tour program for a choir, including all the lyrics
+    of their songs, or a book interpreting one of the books of the Bible.
+</p>
+<p>
+    I am always interested in learning new things and am happy to familiarize myself with new topics.
+</p>
+<h2>Prices</h2>
+<p>
+    I usually charge for my translations on a per-word basis (source word count for word documents, target word count
+    for PDFs).The rate will be determined on the basis of the following factors:
+
+    <ul>
+        <li>Word count </li>
+        <li>Text type </li>
+        <li>Formatting requirements </li>
+        <li>Deadline</li>
+    </ul>
+</p>
+<p>
+    Please <%= link "contact me", to: Routes.contact_path(@conn, :new) %> for a free and non-binding quote.<br>
+    All your information will be kept confidential.
+</p>
+<h2>Certified translations</h2>
+<p>
+    I provide certified translations for both my language combinations, English -> German and German -> English.
+</p>

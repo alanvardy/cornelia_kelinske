@@ -1,0 +1,29 @@
+$theme-colors: ("grey0": hsl(0, 0%, 99%),
+"grey1": hsl(60, 0%, 79%),
+"grey2": hsl(60, 0%, 70%),
+"grey3": hsl(60, 0%, 39%),
+"grey4": hsl(60, 0%, 25%),
+"grey5": hsl(60, 0%, 17%),
+
+"brown0": hsl(18, 15%, 95%),
+"brown1": hsl(20, 28%, 65%),
+"brown2": hsl(20, 20%, 52%),
+"brown3": hsl(20, 24%, 36%),
+"brown4": hsl(21, 23%, 15%),
+"brown5": hsl(23, 19%, 11%),
+
+"orange1": hsl(12, 80%, 75%),
+"orange2": hsl(12, 70%, 56%),
+"orange3": hsl(12, 80%, 44%),
+"orange4": hsl(12, 90%, 33%),
+"orange5": hsl(12, 95%, 21%),
+
+"footer": rgba(255, 255, 255, 0.5),
+"footer-over": rgba(255, 255, 255, 0.75),
+);
+
+$font-size-base: 1rem;
+@import url('https://fonts.googleapis.com/css?family=Cormorant:500|IBM+Plex+Serif:400');
+$font-family-base: 'IBM Plex Serif',
+serif;
+
