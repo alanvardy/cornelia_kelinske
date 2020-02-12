@@ -6,4 +6,4 @@ config :cornelia_kelinske, CorneliaKelinskeWeb.Endpoint,
 
 config :cornelia_kelinske, CorneliaKelinske.Email, adapter: Bamboo.TestAdapter
 config :cornelia_kelinske, env: :systemtest
-config :logger, :console, format: "[$level] $message\n"
+config :logger, level: :warn
