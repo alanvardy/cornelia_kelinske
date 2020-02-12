@@ -3,7 +3,9 @@ defmodule CorneliaKelinskeWeb.DeController do
   alias CorneliaKelinske.Feedback
 
   @spec index(Plug.Conn.t(), map) :: Plug.Conn.t()
-  def index(conn, _params), do: render(conn, "index.html", lang: :de, title: "Willkommen")
+  def index(conn, _params) do
+    render(conn, "index.html", lang: :de, title: "Willkommen", feedback: Feedback.index_german())
+  end
 
   @spec ubermich(Plug.Conn.t(), map) :: Plug.Conn.t()
   def ubermich(conn, _params), do: render(conn, "ubermich.html", lang: :de, title: "Über mich")

@@ -2,7 +2,6 @@ defmodule CorneliaKelinskeWeb.ContactController do
   use CorneliaKelinskeWeb, :controller
   alias CorneliaKelinske.Email
   alias CorneliaKelinske.Email.{Contact, Content}
-  alias CorneliaKelinskeWeb.Endpoint
 
   @messages %{
     success: %{
@@ -27,7 +26,7 @@ defmodule CorneliaKelinskeWeb.ContactController do
 
   @spec neu(Plug.Conn.t(), map) :: Plug.Conn.t()
   def neu(conn, _params) do
-    render(conn, "new.html", lang: :de, title: "Kontakt", changeset: new_changeset())
+    render(conn, "neu.html", lang: :de, title: "Kontakt", changeset: new_changeset())
   end
 
   @spec create(Plug.Conn.t(), map) :: Plug.Conn.t()
@@ -53,7 +52,7 @@ defmodule CorneliaKelinskeWeb.ContactController do
       {:error, %Ecto.Changeset{} = changeset} ->
         conn
         |> put_flash(:error, get_in(@messages, [:failure, language]) || "Language error")
-        |> render(@render_paths[language], changeset: changeset)
+        |> render(@render_paths[language], changeset: changeset, lang: String.to_atom(language))
 
       # Failed recaptcha
       _ ->

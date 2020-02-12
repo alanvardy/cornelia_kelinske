@@ -25,14 +25,4 @@
         <%= img_tag 'images/cornelia_desk2.jpg', class: 'w-100 d-block rounded shadow mx-auto' %>
     </div>
 </div>
-<%# <% @feedback = [
-    {text:  %(
-                You can expect nothing but
-                excellence from her.
-            ),
-    author: ["Julia Glaremin","Managing Partner"],
-    company: ["Apollo Lingua GbR"],
-    website: 'http://www.apollo-lingua.com/index.html'}
-] %>
-
-<%# <%= render 'layouts/feedback', center: true %>
+<%= render "_feedback.html", feedback: @feedback, align: :centre %>

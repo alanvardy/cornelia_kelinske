@@ -1,0 +1,19 @@
+<%= form_for @changeset, Routes.contact_path(@conn, :create), [as: :message], fn f -> %>
+    <%= if @changeset.action do %>
+        <div class="alert alert-danger">
+        <p>Oops, something went wrong! Please check the errors below</p>
+        </div>
+    <% end %>
+
+    <%= input f, :name, placeholder: @form_values.name, label: false %>
+    <%= input f, :from_email, as: :email_input, placeholder: @form_values.email, label: false %>
+    <%= input f, :phone, as: :telephone_input, placeholder: @form_values.phone, label: false %>
+    <%= input f, :message, as: :textarea, placeholder: @form_values.message, rows: 8, label: false %>
+    <%= hidden_input f, :lang, value: @form_values.lang %>
+    <div class="mb-3">
+        <%= if production?() do %>
+            <%= raw Recaptcha.Template.display() %>
+        <% end %>
+    </div>
+    <%= effective_submit(@form_values.submit, class: "btn btn-outline-primary") %>
+    <% end %>

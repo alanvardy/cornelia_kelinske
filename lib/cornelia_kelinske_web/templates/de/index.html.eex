@@ -25,12 +25,4 @@
     </div>
 </div>
 
-<%# @feedback = [
-    {text:  %(
-                Sie dürfen mit einer ausgezeichneten Übersetzung rechnen.
-            ),
-    author: ["Julia Glaremin","Geschäftsführende Gesellschafterin","Apollo Lingua GbR"]},
-
-] %>
-
-<%# render "layouts/feedback", center: true %>
+<%= render CorneliaKelinskeWeb.EnView, "_feedback.html", feedback: @feedback, align: :centre %>
