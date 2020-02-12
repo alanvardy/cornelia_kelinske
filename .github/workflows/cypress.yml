@@ -38,4 +38,5 @@ jobs:
       - run: cd assets && npm install && npm install cypress --save-dev && cd ..
       - run: npm run deploy --prefix ./assets
       - run: mix phx.digest
+      - run: MIX_ENV=systemtest mix compile
       - run: mix cypress.run
