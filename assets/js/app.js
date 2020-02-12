@@ -9,11 +9,3 @@ window.$ = $;
 import "bootstrap"
 import "phoenix_html"
 import "ex_effective_bootstrap"
-
-import { EffectiveFormLiveSocketHooks } from "ex_effective_bootstrap"
-
-let Hooks = {};
-Hooks.EffectiveForm = new EffectiveFormLiveSocketHooks();
-
-// import { Socket } from "phoenix"
-// import socket from "./socket"
