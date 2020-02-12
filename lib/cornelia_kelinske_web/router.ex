@@ -45,4 +45,8 @@ defmodule CorneliaKelinskeWeb.Router do
     get "/linzenzen", DeController, :linzenzen
     get "/kontakt", ContactController, :neu
   end
+
+  if Application.get_env(:cornelia_kelinske, :env) === :dev do
+    forward("/sent_email", Bamboo.SentEmailViewerPlug)
+  end
 end
