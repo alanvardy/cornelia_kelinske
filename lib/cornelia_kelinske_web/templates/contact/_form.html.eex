@@ -15,5 +15,5 @@
             <%= raw Recaptcha.Template.display() %>
         <% end %>
     </div>
-    <%= effective_submit(@form_values.submit, class: "btn btn-outline-primary") %>
+    <%= effective_submit(@form_values.submit, class: "btn btn-outline-orange5") %>
     <% end %>
