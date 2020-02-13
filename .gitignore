@@ -35,3 +35,4 @@ npm-debug.log
 config/dev.secret.exs
 .elixir_ls
 *.mp4
+cypress/screenshots

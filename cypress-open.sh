@@ -1,3 +1,4 @@
+MIX_ENV=systemtest mix compile
 echo "===STARTING PHX SERVER==="
 echo "===IF STARTING CYPRESS FAILS==="
 echo "===RUN npm install cypress --save-dev ==="
