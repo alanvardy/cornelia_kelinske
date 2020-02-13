@@ -80,7 +80,7 @@ config :cornelia_kelinske, CorneliaKelinske.Email,
     recv_timeout: :timer.minutes(1)
   ]
 
-config :elixir_victoria, CorneliaKelinskeWeb.Endpoint,
+config :cornelia_kelinske, CorneliaKelinskeWeb.Endpoint,
   http: [:inet6, port: String.to_integer(port)],
   url: [host: web_host, path: "/", scheme: "https", port: 443],
   load_from_system_env: true,
