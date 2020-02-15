@@ -74,8 +74,8 @@ config :recaptcha,
   json_library: Jason
 
 config :cornelia_kelinske, CorneliaKelinske.Email,
-  adapter: Bamboo.SendGridAdapter,
   api_key: sendgrid_api_key,
+  adapter: Bamboo.SendGridAdapter,
   hackney_opts: [
     recv_timeout: :timer.minutes(1)
   ]
