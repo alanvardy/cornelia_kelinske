@@ -51,7 +51,7 @@ defmodule CorneliaKelinske.MixProject do
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
       {:ex_effective_bootstrap,
-       git: "git@github.com:alanvardy/ex_effective_bootstrap.git", branch: "master"},
+       git: "https://github.com/alanvardy/ex_effective_bootstrap.git", branch: "master"},
       {:bamboo, "~> 1.4"},
       {:recaptcha, "~> 3.0"},
       # Tooling
