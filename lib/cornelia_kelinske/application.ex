@@ -9,7 +9,8 @@ defmodule CorneliaKelinske.Application do
     # List all child processes to be supervised
     children = [
       # Start the endpoint when the application starts
-      CorneliaKelinskeWeb.Endpoint
+      CorneliaKelinskeWeb.Endpoint,
+      {Phoenix.PubSub, [name: CorneliaKelinske.PubSub, adapter: Phoenix.PubSub.PG2]}
       # Starts a worker by calling: CorneliaKelinske.Worker.start_link(arg)
       # {CorneliaKelinske.Worker, arg},
     ]

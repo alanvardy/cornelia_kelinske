@@ -12,7 +12,7 @@ config :cornelia_kelinske, CorneliaKelinskeWeb.Endpoint,
   url: [host: "localhost"],
   secret_key_base: "G7pRZcqLSm+gvLgl85R1d05YfD6Xxyp+uJE1Xozuw2oAj+XPLPnjvYlgGv+HKwaP",
   render_errors: [view: CorneliaKelinskeWeb.ErrorView, accepts: ~w(html json)],
-  pubsub: [name: CorneliaKelinske.PubSub, adapter: Phoenix.PubSub.PG2]
+  pubsub_server: CorneliaKelinske.PubSub
 
 # Configures Elixir's Logger
 config :logger, :console,

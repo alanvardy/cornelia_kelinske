@@ -35,7 +35,7 @@
       <%= flash_alert(@conn) %>
     </div>
     <main role="main" class="container bg-grey0 p-3 p-md-5 p-1">
-      <%= render @view_module, @view_template, assigns %>
+      <%= @inner_content %>
     </main>
     <%= if @lang === :en do %>
       <%= render "en/_footer.html", conn: @conn %>
