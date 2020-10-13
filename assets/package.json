@@ -14,21 +14,21 @@
     "popper.js": "^1.16.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.11.1",
-    "@babel/preset-env": "^7.11.0",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
     "babel-loader": "^8.1.0",
     "babel-minify-webpack-plugin": "^0.3.1",
-    "copy-webpack-plugin": "^6.0.3",
+    "copy-webpack-plugin": "^6.2.1",
     "css-loader": "^3.6.0",
     "cypress": "^4.12.1",
     "expose-loader": "^0.7.5",
     "fibers": "^5.0.0",
     "mini-css-extract-plugin": "^0.10.0",
     "node-sass": "^4.14.1",
-    "sass": "^1.26.10",
+    "sass": "^1.27.0",
     "sass-loader": "^8.0.2",
     "serialize-javascript": "^4.0.0",
-    "webpack": "^4.44.1",
+    "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12"
   }
 }
