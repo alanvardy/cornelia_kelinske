@@ -56,7 +56,7 @@ defmodule CorneliaKelinske.MixProject do
       {:recaptcha, "~> 3.0"},
       # Tooling
       {:ex_check, "~> 0.12", only: :dev, runtime: false},
-      {:credo, "~> 1.4.0", only: [:dev, :test], runtime: false},
+      {:credo, "~> 1.5", only: [:dev, :test], runtime: false},
       {:dialyxir, "~> 1.0", only: [:dev, :test], runtime: false},
       {:sobelow, "~> 0.10.4", only: [:dev, :test], runtime: false},
       {:excoveralls, "~> 0.13", only: :test, runtime: false},
