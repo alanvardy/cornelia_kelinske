@@ -12,8 +12,8 @@
             Meine Telefonnummer (in Kanada) lautet <strong>+1 780 782 1782</strong>
         </p>
         <p>
-            Ihre Anfragen beantworte ich stets so schnell wie möglich, bitte beachten Sie jedoch, dass Sie mich am besten
-            in der Zeit von 8:00 – 16:30 Uhr PST bzw. 17:00 – 1:00 Uhr MEZ erreichen können.
+            Ihre Anfragen beantworte ich stets so schnell wie möglich, bitte beachten Sie jedoch,
+            dass Sie mich am besten in der Zeit von 8:00 – 16:30 Uhr PST bzw. 17:00 – 1:00 Uhr MEZ erreichen können.
         </p>
         <%= img_tag "/images/contact.jpg", class: "w-75 d-block rounded shadow mx-auto mt-2" %>
     </div>
